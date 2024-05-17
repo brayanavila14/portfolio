@@ -109,18 +109,6 @@ function SobreMi() {
                     <FontAwesomeIcon icon={faStar} />
                     <FontAwesomeIcon icon={farStar} />
                     <FontAwesomeIcon icon={farStar} />{" "}
-                    <FontAwesomeIcon icon={faLaravel} /> Laravel{" "}
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={farStar} />
-                    <FontAwesomeIcon icon={farStar} />
-                    <FontAwesomeIcon icon={farStar} />{" "}
-                    <FontAwesomeIcon icon={faNodeJs} /> Express{" "}
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={farStar} />
-                    <FontAwesomeIcon icon={farStar} />
-                    <FontAwesomeIcon icon={farStar} />
                 </p>
             </div>
         </section>
