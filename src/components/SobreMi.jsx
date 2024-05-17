@@ -1,13 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar as farStar } from "@fortawesome/free-regular-svg-icons";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faStar } from "@fortawesome/free-solid-svg-icons";
 import {
     faCss3,
     faReact,
     faJs,
     faPhp,
-    faLaravel,
-    faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 import MyPhoto from "../assets/img/my-photo.jpg";
 function SobreMi() {
@@ -109,6 +107,12 @@ function SobreMi() {
                     <FontAwesomeIcon icon={faStar} />
                     <FontAwesomeIcon icon={farStar} />
                     <FontAwesomeIcon icon={farStar} />{" "}
+                    <FontAwesomeIcon icon={faDatabase} /> MySql{" "}
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={faStar} />
+                    <FontAwesomeIcon icon={farStar} />
+                    <FontAwesomeIcon icon={farStar} />
                 </p>
             </div>
         </section>
