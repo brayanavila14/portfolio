@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    background-color: rgb(110, 170, 220);
+    color: #ffffff;
+}
+footer p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    footer p {
+        font-size: 1rem;
+    }
+}

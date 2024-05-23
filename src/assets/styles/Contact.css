@@ -1,0 +1,29 @@
+#contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border: 1px rgb(110, 170, 220) dashed;
+    border-radius: 10px;
+}
+
+#contacto p,
+#contacto div {
+    font-size: 1.5rem;
+}
+
+#contacto div {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    #contacto div {
+        width: 50%;
+        justify-content: space-around;
+    }
+}

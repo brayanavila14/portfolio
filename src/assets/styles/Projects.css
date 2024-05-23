@@ -1,0 +1,53 @@
+#proyectos {
+    margin: 20px;
+    padding: 20px;
+    border: 1px rgb(110, 170, 220) dashed;
+    border-radius: 10px;
+}
+
+#proyectos>div:last-of-type hr {
+    display: none;
+}
+
+.project {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project img{
+    width: 300px;
+    height: 200px;
+}
+.project div {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.project div p {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    #proyectos h1{
+        margin: 10px;
+    }
+    .project {
+        width: 100%;
+        flex-direction: column;
+    }
+    .project img{
+        width: 200px;
+        height: 150px;
+    }
+    .project div{
+        width: 90%;
+    }
+    
+    .project div p{
+        text-align: center;
+    }
+}

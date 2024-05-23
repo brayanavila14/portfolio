@@ -2,6 +2,7 @@ import { PropTypes } from "prop-types";
 import Portafolio from "../assets/img/portafolio.png";
 import TicTacToe from "../assets/img/tic-tac-toe.png";
 import MouseFollower from "../assets/img/mouse-follower.png";
+import "../assets/styles/Projects.css"
 function Project({ title, img, children }) {
     return (
         <div className="projects">
@@ -9,7 +10,7 @@ function Project({ title, img, children }) {
                 <img
                     src={img}
                     alt={title}
-                    style={{ border: "1px rgb(110, 170, 220) solid", borderRadius: "20px", width: "300px", height: "200px" }}
+                    style={{ border: "1px rgb(110, 170, 220) solid", borderRadius: "20px"}}
                 />
                 <div>
                     <h2>{title}</h2>

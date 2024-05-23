@@ -8,11 +8,12 @@ import {
     faPhp,
 } from "@fortawesome/free-brands-svg-icons";
 import MyPhoto from "../assets/img/my-photo.jpg";
+import "../assets/styles/SobreMi.css"
 function SobreMi() {
     return (
         <section id="sobre-mi">
             <h1>¿Quien soy?</h1>
-            <div>
+            <div  className="container-text">
                 <img src={MyPhoto} alt="Brayan David Avila Orozco" />
                 <p>
                     ¡Hola! Soy <strong>Brayan David Avila Orozco</strong>, un apasionado
@@ -41,7 +42,7 @@ function SobreMi() {
                 </p>
             </div>
             <hr />
-            <div>
+            <div className="container-text">
                 <h2>Formación</h2>
                 <p>
                     Me gradué del colegio <strong> La Ribera </strong>en Montería,
@@ -63,57 +64,69 @@ function SobreMi() {
                 </p>
             </div>
             <hr />
-            <div>
+            <div className="container-text">
                 <h2>Mis Habilidades</h2>
-                <p>
-                    con experiencia en PHP, CSS, JavaScript y MySQL. Mi enfoque se centra
-                    en crear experiencias digitales únicas y funcionales. Con no más de 1
-                    año de práctica en el desarrollo web, he trabajado con lenguajes y
-                    herramientas clave para construir sitios web dinámicos y atractivos.
-                    Mi habilidad para utilizar plataformas como GitHub como repositorio
-                    demuestra mi compromiso con las mejores prácticas de desarrollo y
-                    control de versiones. Pero mi interés no se limita solo al código.
-                    También tengo experiencia en el mundo empresarial, con habilidades en
-                    administración, comunicación y resolución de problemas. Esta
-                    combinación me permite no solo crear soluciones técnicas, sino
-                    comprender cómo estas se alinean con los objetivos comerciales. Mi
-                    objetivo es fusionar mis conocimientos técnicos con mi comprensión
-                    empresarial para optimizar procesos y mejorar la eficiencia. Siempre
-                    busco nuevas oportunidades para aplicar la tecnología y el diseño a
-                    desafíos empresariales.
-                    <br />
-                    <br />
-                    <FontAwesomeIcon icon={faCss3} /> CSS{" "}
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={farStar} />{" "}
-                    <FontAwesomeIcon icon={faJs} /> JavaScript{" "}
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={farStar} />{" "}
-                    <FontAwesomeIcon icon={faReact} /> React{" "}
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={farStar} />
-                    <FontAwesomeIcon icon={farStar} />{" "}
-                    <FontAwesomeIcon icon={faPhp} /> PHP{" "}
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={farStar} />
-                    <FontAwesomeIcon icon={farStar} />{" "}
-                    <FontAwesomeIcon icon={faDatabase} /> MySql{" "}
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={faStar} />
-                    <FontAwesomeIcon icon={farStar} />
-                    <FontAwesomeIcon icon={farStar} />
-                </p>
+                <div className="habilidades">
+                    <p>
+                        con experiencia en PHP, CSS, JavaScript y MySQL. Mi enfoque se
+                        centra en crear experiencias digitales únicas y funcionales. Con no
+                        más de 1 año de práctica en el desarrollo web, he trabajado con
+                        lenguajes y herramientas clave para construir sitios web dinámicos y
+                        atractivos. Mi habilidad para utilizar plataformas como GitHub como
+                        repositorio demuestra mi compromiso con las mejores prácticas de
+                        desarrollo y control de versiones. Pero mi interés no se limita solo
+                        al código. También tengo experiencia en el mundo empresarial, con
+                        habilidades en administración, comunicación y resolución de
+                        problemas. Esta combinación me permite no solo crear soluciones
+                        técnicas, sino comprender cómo estas se alinean con los objetivos
+                        comerciales. Mi objetivo es fusionar mis conocimientos técnicos con
+                        mi comprensión empresarial para optimizar procesos y mejorar la
+                        eficiencia. Siempre busco nuevas oportunidades para aplicar la
+                        tecnología y el diseño a desafíos empresariales.
+                    </p>
+                    <div className="faIcon">
+                        <div className="faIcon-score">
+                            <FontAwesomeIcon icon={faCss3} /> CSS{" "}
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={farStar} />
+                        </div>
+                        <div className="faIcon-score">
+                            <FontAwesomeIcon icon={faJs} /> JavaScript{" "}
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={farStar} />
+                        </div>
+                        <div className="faIcon-score">
+                            <FontAwesomeIcon icon={faReact} /> React{" "}
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={farStar} />
+                            <FontAwesomeIcon icon={farStar} />
+                        </div>
+                        <div className="faIcon-score">
+                            <FontAwesomeIcon icon={faPhp} /> PHP{" "}
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={farStar} />
+                            <FontAwesomeIcon icon={farStar} />
+                        </div>
+                        <div className="faIcon-score">
+                            <FontAwesomeIcon icon={faDatabase} /> MySql{" "}
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={farStar} />
+                            <FontAwesomeIcon icon={farStar} />
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );
